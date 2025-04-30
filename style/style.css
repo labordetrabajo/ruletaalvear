@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background-image: url("./fondoalvear1920logo.png");
+    background-image: url("./finalfondo.png");
     background-size: cover; /* Esto asegura que el fondo cubra toda la pantalla */
     background-position: center; /* Centra el fondo */
     background-attachment: fixed; /* Asegura que el fondo se mantenga fijo al hacer scroll */
@@ -149,7 +149,7 @@ body {
 
 /* Resultado */
 .resultado {
-    margin-top: 140px;
+    margin-top: 160px;
     font-size: 40px;
     font-weight: 500;
     color: #ffb300;
