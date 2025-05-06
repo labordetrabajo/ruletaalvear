@@ -6,16 +6,16 @@
         canvas.height = 480;
         // se utiliza \u2006\u2006 para hacer espacios entre las letras
         const premios = [
-            { nombre: "Segui Participando" }, // índice 0  segui participando
-            { nombre: "Te\u2006\u2006Pasaste" },            // índice 1 
-            { nombre: "Regalo Sorpresa" },            // índice 2
-            { nombre: "Casi\u2006\u2006Casi" },        // índice 3  cuarto continente
-            { nombre: "Una\u2006\u2006Vuelta Mas" },        // índice 4
-            { nombre: "En\u2006\u2006La\u2006\u2006Pera Consumición 2x1" },             // índice 5
-            { nombre: "A\u2006\u2006Bailar" }  ,       // índice 6
-            { nombre: "Mejor\u2006\u2006Suerte" } 
+            { nombre: "Una\u2006\u2006Vuelta Mas" },                 // índice 0 - 19%
+            { nombre: "Casi\u2006\u2006Casi" },                      // índice 1 - 18%
+            { nombre: "Regalo Sorpresa" },                           // índice 2 - 4%
+            { nombre: "Te\u2006\u2006Pasaste" },                     // índice 3 - 18%
+            { nombre: "Segui Participando" },                        // índice 4 - 18%
+            { nombre: "A\u2006\u2006Bailar" },                        // índice 5 - 19%
+            { nombre: "En\u2006\u2006La\u2006\u2006Pera Consumición 2x1" },  // índice 6 - 4%
+            { nombre: "Mejor\u2006\u2006La\u2006\u2006Suerte" }  // índice 7 - 0%
         ];
-        const colores = ["#ef8402", "#1a1a1a"];
+        const colores = ["#b30000", "#333333"];
 
        
         let animacionEnCurso = false;
@@ -79,13 +79,13 @@
         
             // Probabilidades actualizadas
             const probabilidades = [
-                { premio: "Una\u2006\u2006Vuelta Mas", probabilidad: 0.19 },   // 19% de probabilidad
-                { premio: "Casi\u2006\u2006Casi", probabilidad: 0.18 },        // 18%
-                { premio: "Regalo Sorpresa", probabilidad: 0.04 },  // 4%
-                { premio: "Te\u2006\u2006Pasaste", probabilidad: 0.18 },       // 18%
-                { premio: "Segui Participando", probabilidad: 0.18 }, // 18%
-                { premio: "A\u2006\u2006Bailar", probabilidad: 0.19 },         // 19%
-                { premio: "En\u2006\u2006La\u2006\u2006Pera Consumición 2x1", probabilidad: 0.04 }    // 4%
+                { indice: 0, probabilidad: 0.19 },  // Una Vuelta Más
+                { indice: 1, probabilidad: 0.18 },  // Casi Casi
+                { indice: 2, probabilidad: 0.04 },  // Regalo Sorpresa
+                { indice: 3, probabilidad: 0.18 },  // Te Pasaste
+                { indice: 4, probabilidad: 0.18 },  // Seguí Participando
+                { indice: 5, probabilidad: 0.19 },  // A Bailar
+                { indice: 6, probabilidad: 0.04 }   // En la Pera 2x1
             ];
         
             // Calcular el índice del premio basado en las probabilidades
