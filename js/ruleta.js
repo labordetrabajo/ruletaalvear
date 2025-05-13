@@ -15,7 +15,7 @@
             { nombre: "En\u2006\u2006La\u2006\u2006Pera Consumición 2x1" },  // índice 6 - 4%
             { nombre: "Mejor\u2006\u2006La\u2006\u2006Suerte" }  // índice 7 - 0%
         ];
-        const colores = ["#b30000", "#333333"];
+        const colores = ["#ef8402", "#1a1a1a"];
 
        
         let animacionEnCurso = false;
